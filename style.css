@@ -32,15 +32,15 @@ body {
     color: #FFFFFF;
 }
 
-.hero-logo {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
 .hero-logo img {
     margin: 0;
+    transition: transform 0.3s ease;
 }
+
+.hero-logo img:hover {
+    transform: scale(1.03);
+}
+
 
 .hero-nav {
     flex: 0;
